@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DishesCalculationFX">
+    <output-path>$PROJECT_DIR$/out/artifacts/DishesCalculationFX</output-path>
+    <root id="archive" name="DishesCalculationFX.jar">
+      <element id="archive" name="DishesCalculationFX.jar">
+        <element id="module-output" name="DishesCalculationFX" />
+      </element>
+    </root>
+  </artifact>
+</component>

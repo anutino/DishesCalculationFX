@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="663.0" prefWidth="1258.0" style="-fx-background-color: #e6e6e6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="afokeeva.view.controller.searchDishByTypeMultiply">
+   <children>
+      <TableView fx:id="nameTableView" layoutX="1.0" layoutY="183.0" prefHeight="480.0" prefWidth="1258.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="1108.0" text="Наименвание" />
+            <TableColumn fx:id="grwColumn" prefWidth="149.0" text="Вес" />
+        </columns>
+      </TableView>
+      <Button layoutX="641.0" layoutY="57.0" mnemonicParsing="false" onAction="#findNameDishes" prefHeight="41.0" prefWidth="118.0" style="-fx-background-color: #ffa474;" text="Найти">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <ChoiceBox fx:id="choiceTypeDishes" layoutX="206.0" layoutY="65.0" prefHeight="25.0" prefWidth="396.0" />
+       <Label layoutX="14.0" layoutY="47.0" prefHeight="47.0" prefWidth="183.0" text="Выбрать тип блюда :" textOverrun="CENTER_WORD_ELLIPSIS">
+           <font>
+               <Font name="System Bold" size="17.0" />
+           </font>
+       </Label>
+   </children>
+</Pane>
